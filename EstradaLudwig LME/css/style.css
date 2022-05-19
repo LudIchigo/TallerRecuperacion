@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+  body{
+    background-color:   rgba(118, 194, 133, 0.8);
+    color: white;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+  }
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    top: -70px;
+    margin: 100px;
+    
+}
+.container .card1{
+    width: 200px;
+    height:200px;
+    margin: 10px;
+    text-align: right;
+    background-color: rgba(0, 41, 3, 0.5);
+    border-radius: 10px 10px 10px 10px;
+}
+.container .card2{
+    width: 650px;
+    height:200px;
+    margin: 10px;
+    background-color: rgba(0, 41, 3, 0.5);
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 20px;
+}
+
+
+.container .card1 p{
+    text-align: : left;
+}
+
+.container .card1 > img{
+    width: 160px;
+    height: 160px;
+  
+}
+.correo{
+  text-align: center;
+}
+
+.P1{
+     position: absolute;
+    width: 100%;
+    max-width: 1200px;
+    height: 430px; 
+    color: #000;
+    justify-content: center;
+    top: -70px;
+    margin-left: 50px;
+    margin-top: 400px;
+    font-family: 'Inter', sans-serif;
+}
+.P2{
+     position: absolute;
+    width: 100%;
+     color: #000;
+    max-width: 1200px;
+    height: 430px; 
+    justify-content: center;
+    top: -70px;
+    margin-left: 50px;
+    margin-top: 560px;    
+font-family: 'Nunito', sans-serif;
+}
+.video{
+  position: absolute;
+    width: 100%;
+    max-width: 1200px;
+    height: 300px; 
+    justify-content: center;
+    top: -70px;
+    margin-left: 50px;
+    margin-top: 800px;
+ 
+}
+ .att{
+      position: absolute;
+    width: 100%;
+    max-width: 1200px;
+    height: 300px; 
+ margin-left: 1000px;
+    margin-top: 1090px;
+ }
+
+footer{
+    text-align: center;
+     position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    margin-top: 2000px;
+    background-color: rgba(0, 41, 3, 0.5);
+}
